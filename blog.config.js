@@ -62,7 +62,7 @@ const BLOG = {
   // 欢迎语打字效果,Hexo,Matery主题支持, 英文逗号隔开多个欢迎语。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    '📘 Hi，我是《玻尿酸女王那些事儿》的作者🎉，Hi, 我是华熙生物吹哨人，Hi, 我是被华熙生物陷害的“犯罪嫌疑人',
+    'Hi，我是《玻尿酸女王那些事儿》的作者🎉，Hi, 我是华熙生物吹哨人，Hi, 我是被华熙生物陷害的“犯罪嫌疑人',
 
   // uuid重定向至 slug
   UUID_REDIRECT: process.env.UUID_REDIRECT || false
