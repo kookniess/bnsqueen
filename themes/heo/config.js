@@ -4,12 +4,12 @@ const CONFIG = {
 
   HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_SITE_CREATE_TIME: '2025-07-01', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到《玻尿酸女王那些事儿》的世界', url: 'https://www.bnsqueen.com' },
-    { title: '欢迎来Youtube,X推特追短剧，听幕后，读原著，看证据', url: 'https://www.youtube.com/@bnsqueen_com' }
+    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
+    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -18,8 +18,8 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '看证据',
-  HEO_HERO_TITLE_2: '看华熙的秘密',
+  HEO_HERO_TITLE_1: '分享编程',
+  HEO_HERO_TITLE_2: '与思维认知',
   HEO_HERO_TITLE_3: 'bnsqueen.com',
   HEO_HERO_TITLE_4: '欢迎点赞，分享加小铃铛',
   HEO_HERO_TITLE_5: 'Youtube和X推特上线',
@@ -46,7 +46,6 @@ const CONFIG = {
     '🏠 资本市场部总经理',
     '🤖️ 全球投资者关系负责人',
     '🧱 首席执行官特别助理'
-    '🧱 首席财务官助理'
   ],
 
   // 个人资料底部按钮
