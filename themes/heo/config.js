@@ -8,8 +8,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到《玻尿酸女王那些事儿》的世界', url: 'https://bnsqueen.com' },
-    { title: '来这里追短剧，听幕后，读原著，看证据', url: 'https://youtube.com/@bnsqueen_com' }
+    { title: '一条发错的语音，竟是一场针对我的精准猎杀...', url: 'https://david.bnsqueen.com' }, // 链接到小说第一章
+    { title: '千亿商业帝国背后，隐藏着怎样的权力与阴谋？点击揭秘', url: 'https://youtube.com/@bnsqueen_com' }, // 链接到“故事宇宙”或小说简介页面
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -20,7 +20,7 @@ const CONFIG = {
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '看证据',
   HEO_HERO_TITLE_2: '看华熙秘密',
-  HEO_HERO_TITLE_3: 'bnsqueen.com',
+  HEO_HERO_TITLE_3: 'https://david.bnsqueen.com/post/evidence',
   HEO_HERO_TITLE_4: '欢迎点赞，分享加小铃铛',
   HEO_HERO_TITLE_5: 'Youtube和X推特上线',
   HEO_HERO_TITLE_LINK: 'https://youtube.com/@bnsqueen_com',
@@ -28,9 +28,9 @@ const CONFIG = {
   HEO_HERO_COVER_TITLE: '不是一份文件，而是真相的印记',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '1必看精选', url: '/tag/必看精选' },
-  HEO_HERO_CATEGORY_2: { title: '1热门文章', url: '/tag/热门文章' },
-  HEO_HERO_CATEGORY_3: { title: '1实用教程', url: '/tag/实用教程' },
+  HEO_HERO_CATEGORY_1: { title: '追短剧', url: '/post/video' },
+  HEO_HERO_CATEGORY_2: { title: '听幕后', url: '/post/audio' },
+  HEO_HERO_CATEGORY_3: { title: '读原著', url: '/post/novel' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
