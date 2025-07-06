@@ -59,59 +59,59 @@ const CONFIG = {
   // 用户技能图标
   HEO_GROUP_ICONS: [
     {
-      title_1: 'AfterEffect',
-      img_1: '/images/heo/01.png',
+      title_1: '新加坡投资基金',
+      img_1: '/images/heo/001.png',
       color_1: '#989bf8',
-      title_2: 'Sketch',
-      img_2: '/images/heo/1.png',
+      title_2: '富兰克林基金',
+      img_2: '/images/heo/002.png',
       color_2: '#ffffff'
     },
     {
-      title_1: 'Docker',
-      img_1: '/images/heo/2.png',
+      title_1: '安永企业家奖',
+      img_1: '/images/heo/003.png',
       color_1: '#57b6e6',
-      title_2: 'Photoshop',
-      img_2: '/images/heo/3.png',
+      title_2: '国美电器',
+      img_2: '/images/heo/004.png',
       color_2: '#4082c3'
     },
     {
-      title_1: 'FinalCutPro',
-      img_1: '/images/heo/4.png',
+      title_1: '华熙生物',
+      img_1: '/images/heo/005.png',
       color_1: '#ffffff',
-      title_2: 'Python',
-      img_2: '/images/heo/5.png',
+      title_2: '中信银行',
+      img_2: '/images/heo/006.png',
       color_2: '#ffffff'
     },
     {
-      title_1: 'Swift',
-      img_1: '/images/heo/6.png',
+      title_1: '关键证据',
+      img_1: '/images/heo/007.png',
       color_1: '#eb6840',
-      title_2: 'Principle',
-      img_2: '/images/heo/7.png',
+      title_2: '致命语音',
+      img_2: '/images/heo/008.png',
       color_2: '#8f55ba'
     },
     {
-      title_1: 'illustrator',
-      img_1: '/images/heo/8.png',
+      title_1: '吹哨人',
+      img_1: '/images/heo/009.png',
       color_1: '#f29e39',
-      title_2: 'CSS3',
-      img_2: '/images/heo/9.png',
+      title_2: '靠山打手',
+      img_2: '/images/heo/0010.png',
       color_2: '#2c51db'
     },
     {
-      title_1: 'JS',
-      img_1: '/images/heo/10.png',
+      title_1: '4.3亿K线图',
+      img_1: '/images/heo/0011.png',
       color_1: '#f7cb4f',
-      title_2: 'HTML',
-      img_2: '/images/heo/11.png',
+      title_2: '2017审计报告',
+      img_2: '/images/heo/0012.png',
       color_2: '#e9572b'
     },
     {
-      title_1: 'Git',
-      img_1: '/images/heo/12.png',
+      title_1: '红头文件',
+      img_1: '/images/heo/0013.png',
       color_1: '#df5b40',
-      title_2: 'Rhino',
-      img_2: '/images/heo/13.png',
+      title_2: '正义',
+      img_2: '/images/heo/0014.png',
       color_2: '#1f1f1f'
     }
   ],
