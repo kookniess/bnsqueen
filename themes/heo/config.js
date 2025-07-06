@@ -21,11 +21,11 @@ const CONFIG = {
   HEO_HERO_TITLE_1: '看证据',
   HEO_HERO_TITLE_2: '看华熙秘密',
   HEO_HERO_TITLE_3: 'https://david.bnsqueen.com/post/evidence',
-  HEO_HERO_TITLE_4: '欢迎点赞，分享加小铃铛',
-  HEO_HERO_TITLE_5: 'Youtube和X推特上线',
-  HEO_HERO_TITLE_LINK: 'https://youtube.com/@bnsqueen_com',
+  HEO_HERO_TITLE_4: '',
+  HEO_HERO_TITLE_5: '',
+  HEO_HERO_TITLE_LINK: '',
   // 英雄区遮罩文字
-  HEO_HERO_COVER_TITLE: '不是一份文件，而是真相的印记',
+  HEO_HERO_COVER_TITLE: '我还留存着！',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '追短剧', url: '/post/video' },
