@@ -28,7 +28,7 @@ const CONFIG = {
   HEO_HERO_COVER_TITLE: '证据我还留存着！',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '公益基金', url: '/post/cfunds' },
+  HEO_HERO_CATEGORY_1: { title: '最新动态', url: '/latest' },
   HEO_HERO_CATEGORY_2: { title: '关于我', url: '/about' },
   HEO_HERO_CATEGORY_3: { title: '支持我', url: '/post/support' },
 
