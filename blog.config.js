@@ -16,7 +16,7 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'David', // 您的昵称 例如 David
   BIO: process.env.NEXT_PUBLIC_BIO || '作者/华熙生物吹哨人/被陷害的犯罪嫌疑人', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://david.bnsqueen.com', // 网站地址
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://bnsqueen.com', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '《玻尿酸女王那些事儿》官网 ', // 网站关键词 英文逗号隔开
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备1881368
