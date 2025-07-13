@@ -20,7 +20,7 @@ const CONFIG = {
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '看证据',
   HEO_HERO_TITLE_2: '看华熙秘密',
-  HEO_HERO_TITLE_3: 'https://bnsqueen.com/post/evidence',
+  HEO_HERO_TITLE_3: '',
   HEO_HERO_TITLE_4: '',
   HEO_HERO_TITLE_5: '',
   HEO_HERO_TITLE_LINK: '',
