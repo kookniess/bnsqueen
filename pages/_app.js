@@ -15,6 +15,7 @@ import { getQueryParam } from '../lib/utils'
 
 // 各种扩展插件 这个要阻塞引入
 import BLOG from '@/blog.config'
+import { Analytics } from '@vercel/analytics/react' // 新增
 import ExternalPlugins from '@/components/ExternalPlugins'
 import SEO from '@/components/SEO'
 import { zhCN } from '@clerk/localizations'
@@ -61,15 +62,16 @@ const MyApp = ({ Component, pageProps }) => {
       <ExternalPlugins {...pageProps} />
     </GlobalContextProvider>
   )
-  return (
-    <>
-      {enableClerk ? (
-        <ClerkProvider localization={zhCN}>{content}</ClerkProvider>
-      ) : (
-        content
-      )}
-    </>
-  )
+ return (
+  <>
+    {enableClerk ? (
+      <ClerkProvider localization={zhCN}>{content}</ClerkProvider>
+    ) : (
+      content
+    )}
+    <Analytics />  {/* 新增 */}
+  </>
+)
 }
 
 export default MyApp
