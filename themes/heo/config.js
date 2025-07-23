@@ -20,17 +20,17 @@ const CONFIG = {
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '看证据',
   HEO_HERO_TITLE_2: '看华熙秘密',
-  HEO_HERO_TITLE_3: '',
-  HEO_HERO_TITLE_4: '',
-  HEO_HERO_TITLE_5: '',
-  HEO_HERO_TITLE_LINK: '',
+  HEO_HERO_TITLE_3: 'Title-3',
+  HEO_HERO_TITLE_4: 'Title-4',
+  HEO_HERO_TITLE_5: 'Title-5',
+  HEO_HERO_TITLE_LINK: 'http://@@@',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '证据我还留存着！',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '最新动态', url: '/latest' },
-  HEO_HERO_CATEGORY_2: { title: '关于我', url: '/about' },
-  HEO_HERO_CATEGORY_3: { title: '支持我', url: '/post/support' },
+  HEO_HERO_CATEGORY_1: { title: '公开声明:我的立场', url: '/statements' },
+  HEO_HERO_CATEGORY_2: { title: '深度揭秘:内幕与真相', url: '/about' },
+  HEO_HERO_CATEGORY_3: { title: '收听故事：58集播客', url: '/post/podcast' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '',
