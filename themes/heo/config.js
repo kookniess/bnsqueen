@@ -8,8 +8,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '华熙赵燕针对我这个吹哨人的精准猎杀...', url: 'https://bnsqueen.com/post/video' }, // 链接到小说第一章
-    { title: '千亿华熙隐藏的权力与阴谋？点击揭秘', url: 'https://bnsqueen.com/post/novel' }, // 链接到“故事宇宙”或小说简介页面
+    { title: '华熙赵燕针对我这个吹哨人的精准猎杀...', url: 'https://bnsqueen.com/post/chapter-1' }, // 链接到小说第一章
+    { title: '千亿华熙隐藏的权力与阴谋？点击揭秘', url: 'https://bnsqueen.com/evidence' }, // 链接到“故事宇宙”或小说简介页面
   ],
 
   // 英雄区左右侧组件颠倒位置
