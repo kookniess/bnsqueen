@@ -8,8 +8,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '作者、华熙吹哨人，犯罪嫌疑人', url: 'https://bnsqueen.com/about' }, // 链接到小说第一章
-    { title: '最新动态', url: 'https://bnsqueen.com/latest' }, // 链接到“最新动态”或小说简介页面
+    { title: '女王公众号', url: 'https://bnsqueen.com/latest' }, // 链接到小说第一章
+    { title: '点我进入女王公众号', url: 'https://bnsqueen.com/latest' }, // 链接到“最新动态”或小说简介页面
   ],
 
   // 英雄区左右侧组件颠倒位置
