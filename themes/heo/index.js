@@ -38,7 +38,7 @@ import PostCopyright from './components/PostCopyright'
 import PostHeader from './components/PostHeader'
 import { PostLock } from './components/PostLock'
 import PostRecommend from './components/PostRecommend'
-import SearchNav from './components/SearchNav'
+/** import SearchNav from './components/SearchNav'  */
 import SideRight from './components/SideRight'
 import CONFIG from './config'
 import { Style } from './style'
