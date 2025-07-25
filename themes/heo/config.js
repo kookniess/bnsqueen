@@ -134,7 +134,7 @@ const CONFIG = {
   HEO_MENU_CATEGORY: true, // 显示分类
   HEO_MENU_TAG: true, // 显示标签
   HEO_MENU_ARCHIVE: true, // 显示归档
-  HEO_MENU_SEARCH: true, // 显示搜索
+  HEO_MENU_SEARCH: false, // 显示搜索
 
   HEO_POST_LIST_COVER: true, // 列表显示文章封面
   HEO_POST_LIST_COVER_HOVER_ENLARGE: false, // 列表鼠标悬停放大
