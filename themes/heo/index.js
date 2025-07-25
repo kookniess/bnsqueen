@@ -480,7 +480,7 @@ export {
   LayoutCategoryIndex,
   LayoutIndex,
   LayoutPostList,
-  /** LayoutSearch, */   // ✅ 搜索功能将不再被导出
+  LayoutSearch, 
   LayoutSlug,
   LayoutTagIndex,
   CONFIG as THEME_CONFIG
