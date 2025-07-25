@@ -170,44 +170,19 @@ const LayoutPostList = props => {
 }
 
 /**
- * 搜索
- * @param {*} props
+ * 搜索功能已关闭保护页
  * @returns
  */
-const LayoutSearch = props => {
-  const { keyword } = props
-  const router = useRouter()
-  const currentSearch = keyword || router?.query?.s
-
-  useEffect(() => {
-    // 高亮搜索结果
-    if (currentSearch) {
-      setTimeout(() => {
-        replaceSearchResult({
-          doms: document.getElementsByClassName('replace'),
-          search: currentSearch,
-          target: {
-            element: 'span',
-            className: 'text-red-500 border-b border-dashed'
-          }
-        })
-      }, 100)
-    }
-  }, [])
+const LayoutSearch = () => {
   return (
-    <div currentSearch={currentSearch}>
-      <div id='post-outer-wrapper' className='px-5  md:px-0'>
-        {!currentSearch ? (
-          <SearchNav {...props} />
-        ) : (
-          <div id='posts-wrapper'>
-            {siteConfig('POST_LIST_STYLE') === 'page' ? (
-              <BlogPostListPage {...props} />
-            ) : (
-              <BlogPostListScroll {...props} />
-            )}
-          </div>
-        )}
+    <div className='text-center text-2xl py-24 text-red-500'>
+      🚫 搜索功能已临时关闭，请返回首页。
+      <div className='mt-4'>
+        <Link href='/'>
+          <button className='bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'>
+            返回首页
+          </button>
+        </Link>
       </div>
     </div>
   )
@@ -505,7 +480,7 @@ export {
   LayoutCategoryIndex,
   LayoutIndex,
   LayoutPostList,
-  LayoutSearch,
+  /** LayoutSearch, */   // ✅ 搜索功能将不再被导出
   LayoutSlug,
   LayoutTagIndex,
   CONFIG as THEME_CONFIG
