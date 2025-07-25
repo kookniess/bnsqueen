@@ -1,3 +1,5 @@
+import CONFIG from '../config' // ✅ 加载全局配置
+if (!CONFIG.MENU_SEARCH) return null // ✅ 如果关闭搜索功能，直接不渲染按钮
 import { siteConfig } from '@/lib/config'
 import { useGlobal } from '@/lib/global'
 import dynamic from 'next/dynamic'
