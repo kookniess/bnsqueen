@@ -10,7 +10,6 @@ import RandomPostButton from './RandomPostButton'
 import ReadingProgress from './ReadingProgress'
 import SearchButton from './SearchButton'
 import SlideOver from './SlideOver'
-import CONFIG from '../config'
 
 /**
  * 页头：顶部导航
