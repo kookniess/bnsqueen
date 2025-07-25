@@ -135,6 +135,7 @@ const CONFIG = {
   HEO_MENU_TAG: true, // 显示标签
   HEO_MENU_ARCHIVE: true, // 显示归档
   HEO_MENU_SEARCH: false, // 显示搜索
+  MENU_SEARCH: false, // ✅ 控制顶部菜单是否显示搜索按钮
 
   HEO_POST_LIST_COVER: true, // 列表显示文章封面
   HEO_POST_LIST_COVER_HOVER_ENLARGE: false, // 列表鼠标悬停放大
