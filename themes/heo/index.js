@@ -176,7 +176,7 @@ const LayoutPostList = props => {
 const LayoutSearch = () => {
   return (
     <div className='text-center text-2xl py-24 text-red-500'>
-      🚫 好朋友们，欢迎来到《玻尿酸女王那些事儿》原创小说，播客和短视频，返回首页。
+      🚫 好朋友们，欢迎来到《玻尿酸女王那些事儿》原创小说，播客和短视频的世界。
       <div className='mt-4'>
         <Link href='/'>
           <button className='bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition'>
