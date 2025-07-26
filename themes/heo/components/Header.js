@@ -170,7 +170,7 @@ const Header = props => {
           <div className='flex flex-shrink-0 justify-end items-center w-48'>
             <RandomPostButton {...props} />
             {CONFIG.MENU_SEARCH && <SearchButton {...props} />}
-            {/* <SearchButton {...props} /> */}
+            {/* <SearchButton {...props} /> */}  // ✅
             {!JSON.parse(siteConfig('THEME_SWITCH')) && (
               <div className='hidden md:block'>
                 <DarkModeButton {...props} />
